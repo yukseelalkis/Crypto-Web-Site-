@@ -10,7 +10,7 @@ const Signup = () => {
     }
 
     return (
-        <div className='signup'>
+        <div id ="ea"className='signup'>
             <div className='container'>
                 {/* left */}
                 <div className='left'>

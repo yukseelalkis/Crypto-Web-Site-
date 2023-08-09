@@ -1,0 +1,80 @@
+/* signup.css */
+.auth-form-container {
+  background-color: #f5f5f5;
+  border: 1px solid #EA5607;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.auth-form-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form label {
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.register-form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.register-form button {
+  background-color: #EA5607;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register-form .link-button {
+  background-color: transparent;
+  color: #EA5607;
+  border: none;
+  font-size: 14px;
+}
+
+.register-form button:hover,
+.register-form .link-button:hover {
+  background-color: #fff;
+}
+
+/* Tablet boyutları için medya sorgusu */
+@media screen and (max-width: 768px) {
+  .auth-form-container {
+    max-width: 90%;
+  }
+}
+
+/* Mobil boyutları için medya sorgusu */
+@media screen and (max-width: 480px) {
+  .auth-form-container {
+    padding: 10px;
+  }
+  
+  .auth-form-container h2 {
+    font-size: 20px;
+  }
+  
+  .register-form input,
+  .register-form button,
+  .register-form .link-button {
+    font-size: 14px;
+  }
+}

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FiArrowRight } from 'react-icons/fi';
-import './Signup.css'
+import './buy.css'
 import Crypto from '../assets/trade.png'
 
 const Signup = () => {

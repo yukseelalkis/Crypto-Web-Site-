@@ -17,7 +17,7 @@ const Navbar = () => {
         <h1> <span className="primary">Bitci</span>Global</h1>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li>
-            <button className="btnBeyazMenu">Home</button>
+            <button onClick={() => navigate('/home')} className="btnBeyazMenu">Home</button>
           </li>
           <li>
             <button className="btnBeyazMenu">Featured</button>
